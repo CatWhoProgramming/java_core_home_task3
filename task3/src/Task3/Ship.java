@@ -1,14 +1,10 @@
 package Task3;
 
 public class Ship extends Vehicle {
-    private double price;
-    private double speed;
-    private int year;
     private int passengers;
     private String port;
 
     public Ship(double price, double speed, int year, int passengers, String port) {
-        super(price, speed, year);
         this.price = price;
         this.speed = speed;
         this.year = year;

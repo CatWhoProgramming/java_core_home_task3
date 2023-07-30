@@ -1,14 +1,10 @@
 package Task3;
 
 public class Plane extends Vehicle {
-    private double price;
-    private double speed;
-    private int year;
     private double height;
     private int passengers;
 
     public Plane(double price, double speed, int year, double height, int passengers) {
-        super(price, speed, year);
         this.price = price;
         this.speed = speed;
         this.year = year;
